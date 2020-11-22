@@ -1,4 +1,4 @@
 # Beta-test-file
-Copy a back up bfore replaceing 
+Copy a backup your original lyrics.js before replaceing 
 Mater-Bot/commands/music/lyrics.js
 
