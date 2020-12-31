@@ -1,4 +1,3 @@
 # Beta-test-file
-Copy a backup your original play.js before replacing 
-Mater-Bot/commands/music/play.js
 
+this is a modified version of #390
