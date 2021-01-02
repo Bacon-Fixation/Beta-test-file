@@ -19,8 +19,8 @@ apt-get clean && \
 npm install -g pm2 && \
 git clone https://github.com/galnir/Master-Bot.git ./Master-Bot
 WORKDIR "/Master-Bot"
-COPY ./config.json .
-COPY ./json.sqlite .
+COPY ./config.json* .
+COPY ./json.sqlite* .
 RUN npm install && \
 pm2 startup
 CMD ["pm2-runtime", "--raw", "index.js"]
