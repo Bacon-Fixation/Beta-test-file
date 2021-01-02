@@ -21,6 +21,5 @@ git clone https://github.com/galnir/Master-Bot.git ./Master-Bot
 WORKDIR "/Master-Bot"
 COPY ./config.json* .
 COPY ./json.sqlite* .
-RUN npm install && \
-pm2 startup
+RUN npm install
 CMD ["pm2-runtime", "--raw", "index.js"]
